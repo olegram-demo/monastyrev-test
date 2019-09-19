@@ -1,0 +1,21 @@
+{
+  "name": "olegram/monastyrev-test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Savvateev",
+      "email": "o.savvateev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/functions.php"
+    ]
+  }
+}
